@@ -1,0 +1,19 @@
+#side .box .boxBody ul li:hover {
+    padding: 8px 0 8px 4px;
+    list-style: none;
+    border-bottom: solid 1px #C36;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+のbox-shadowの0pxは0でいいのかどうか。
+rgbaの中身は？
+
+～～～～～～～～～～～～～～～～
+構造疑似クラス	効果
+:root	ルート要素（html）に対してスタイルを設定できる
+:first-child	一番最初に表示されるHTML要素に対してのみスタイルを設定できる
+:last-child	一番最後に表示されるHTML要素に対してのみスタイルを設定できる
+:first-of-type	一番最初に表示されるHTML要素に対してのみスタイルを設定できる(間に他のHTML要素があってもOK)
+:last-of-type	一番最後に表示されるHTML要素に対してのみスタイルを設定できる(間に他のHTML要素があってもOK)
+:empty	空白のHTML要素に対してスタイルを設定できる（<div></div>など)
+
+:first-childと:first-of-typeの違い・使い方をチェック
